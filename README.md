@@ -8,7 +8,7 @@
 
 ## Install md5sum
 
-Either run the MSI manually or enter `make install`.
+Either launch `md5sum-1.22.msi` manually, or enter `make install`.
 
 ## Use md5sum
 
