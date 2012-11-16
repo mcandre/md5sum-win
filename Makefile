@@ -1,4 +1,12 @@
+APP=md5sum
+VERSION=1.22
+API=$(APP)-$(VERSION).aip
+MSI=$(APP)-$(VERSION).msi
+
 all: installer
 
-installer: md5sum-1.22.aip
-	AdvancedInstaller /build md5sum-1.22.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
+
+install: $(MSI)
+	msiexec /qb /i $(MSI)
