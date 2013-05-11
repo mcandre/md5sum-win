@@ -1,18 +1,13 @@
 # md5sum-win - md5sum installer for Windows
 
-# EXAMPLE
+# ABOUT
 
-## Create the MSI installer
+md5sum-win takes several md5sum files and wraps them in a basic MSI installer that adds `md5sum` to `PATH`.
 
-	C:\>make
+# DOWNLOAD
 
-## Install md5sum
+https://github.com/mcandre/md5sum-win/blob/master/md5sum-1.22.msi?raw=true
 
-Either launch `md5sum-1.22.msi` manually, or enter `make install`.
+# CREDITS
 
-## Use md5sum
-
-Open a new Command Prompt to reload md5sum.exe in PATH. Then:
-
-	C:\>md5sum hash.ico
-	391af5cb4f6d91b923a12098110a1d23 *hash.ico
+Binaries - [etree](http://www.etree.org/md5com.html)
